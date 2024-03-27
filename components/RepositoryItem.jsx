@@ -47,7 +47,6 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   description: {
-    wordWrap: 'break-word',
     marginTop: 5,
     fontSize: 16,
   },

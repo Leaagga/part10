@@ -1,25 +1,18 @@
 import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
-import RepositoryList from './components/RepositoryList'
-import AppBar from './components/AppBar'
-export default function App() {
+
+import { NativeRouter } from 'react-router-native'
+
+import Main from './components/Main'
+
+const App = () => {
   return (
     <>
-      <AppBar />
-      <View style={styles.container}>
-        <RepositoryList />
-      </View>
+      <NativeRouter>
+        <Main />
+      </NativeRouter>
+      <StatusBar style='auto' />
     </>
   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#e1e4e8',
-    width: '100%',
-  },
-})
+export default App
