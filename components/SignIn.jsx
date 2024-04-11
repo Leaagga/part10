@@ -1,4 +1,5 @@
-import { Pressable, Text, TextInput, View, StyleSheet } from 'react-native'
+import { Pressable, TextInput, View, StyleSheet } from 'react-native'
+import Text from './Text'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 const styles = StyleSheet.create({
