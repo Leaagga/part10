@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, ScrollView } from 'react-native'
+import { View, StyleSheet, ScrollView } from 'react-native'
 import Text from './Text'
 import Constants from 'expo-constants'
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable'
